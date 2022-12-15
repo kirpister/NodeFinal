@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title><%= title %></title>
+    <link rel="stylesheet" href="/styles/style.css">
+</head>
+<body>
+    <main>
+        <h2><%= header %></h2>
+        <form action="<%= action %>" method= "POST">
+
+            <div>
+
+                <div>
+                    <label for="id">Product ID</label>
+                    <input type="text" id="id" name="productId" value="<%= productId.value %>" <%= productId.readonly %> >
+                </div>
+
+                <div>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" value="<%= name.value %>" <%= name.readonly %> >
+                </div>
+
+                <div>
+                    <label for="model">Model</label>
+                    <input type="text" id="model" name="model" value="<%= model.value %>" <%= model.readonly %> >
+                </div>
+
+                <div>
+                    <label for="type">Type</label>
+                    <input type="text" id="type" name="type" value="<%= type.value %>" <%= type.readonly %> >
+                </div>
+
+                <div>
+                    <label for="amount">Amount</label>
+                    <input type="text" id="amount" name="amount" value="<%= amount.value %>" <%= amount.readonly %> >
+                </div>
+
+            </div>
+
+            <button type="submit">Submit</button>
+
+        </form>
+        <a href="/"><button>HOME</button></a>
+    </main>
+</body>
+</html>

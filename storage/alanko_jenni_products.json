@@ -1,0 +1,65 @@
+[
+  {
+    "productId": 7,
+    "name": "Beast II",
+    "model": 2012,
+    "type": "phone",
+    "amount": 25
+  },
+  {
+    "productId": 5,
+    "name": "Tako delux",
+    "model": 2015,
+    "type": "radio",
+    "amount": 20
+  },
+  {
+    "productId": 2,
+    "name": "NexGen 2",
+    "model": 2017,
+    "type": "monitor",
+    "amount": 100
+  },
+  {
+    "productId": 4,
+    "name": "Cosmos",
+    "model": 2011,
+    "type": "moccamaster",
+    "amount": 15
+  },
+  {
+    "productId": 3,
+    "name": "Future 2025",
+    "model": 2018,
+    "type": "stereo",
+    "amount": 5
+  },
+  {
+    "productId": 6,
+    "name": "Mercury",
+    "model": 2010,
+    "type": "tv",
+    "amount": 7
+  },
+  {
+    "productId": 1,
+    "name": "MaxEffect 2000",
+    "model": 2006,
+    "type": "toaster",
+    "amount": 13
+  },
+  {
+    "productId": 666,
+    "name": "Whatever",
+    "model": 2022,
+    "type": "thingy!",
+    "amount": 10
+  },
+  {
+    "productId": 13,
+    "name": "Super Whatever",
+    "model": 2022,
+    "type": "Widget",
+    "amount": 999
+  }
+]

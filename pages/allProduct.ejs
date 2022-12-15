@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+  
+    <title>OUR PRODUCTS</title>
+    <link rel="stylesheet" href="/styles/style.css">
+</head>
+<body>
+
+    <main>
+        <h2>All Products</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Product ID</th>
+                    <th>Product name</th>
+                    <th>Model</th>
+                    <th>Type</th>
+                    <th>Amount</th>
+                </tr>
+            </thead>
+            <tbody>
+                <% result.forEach(product => { %>
+                    <tr>
+                        <td><%= product.productId %></td>
+                        <td><%= product.name %></td>
+                        <td><%= product.model %></td>
+                        <td><%= product.type %></td>
+                        <td><%= product.amount %></td>
+                    </tr>
+               <% }) %>
+            </tbody>
+        </table>
+        <a href="/"><button>HOME!</button></a>
+    </main>
+    
+</body>
+</html>

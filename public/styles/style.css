@@ -1,0 +1,96 @@
+body {
+background: #c31432;
+background: -webkit-linear-gradient(to bottom, #240b36, #c31432);  
+background: linear-gradient(to bottom, #240b36, #c31432); 
+height: 100vh;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+main, form {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+}
+
+
+input[readonly] {
+    background-color: rgba(255, 255, 255, 0.191);
+}
+
+p {
+    margin-right: 2rem;
+    text-align: left;
+}
+
+span {
+    margin: 1rem;
+}
+
+input {
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+table {
+    border-collapse: collapse;
+    margin-bottom: 1rem;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+table, th, td {
+    border: 1px solid rgba(255, 255, 255, 0.753);
+    padding: 0.7rem;
+}
+
+thead {
+    background-color: rgba(228, 85, 250, 0.55);
+}
+
+button {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: none;
+    width: 180px;
+    padding: 10px;
+    background-image: linear-gradient(to right, #64033dc7 45%, #a5033eb9  80%);
+    color: white;
+    margin: 0.5rem;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+p.error {
+    border: 2px dashed rgb(156, 42, 42);
+    border-radius: 1rem;
+    padding: 1rem;
+}
+ 
+p.info {
+    border: 2px solid rgb(80, 235, 80);
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+h2, h1 {
+    color: rgba(255, 255, 255, 0.508);
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+p {
+    color: rgba(255, 255, 255, 0.508);
+    letter-spacing: 2px;
+}
+
+
+input {
+    margin: 0.5rem 0 0.5rem 0;
+    display: block;
+    width: 170px;
+}
+
+label {
+    color: white;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title><%= title %></title>
+    <link rel="stylesheet" href="/styles/style.css">
+</head>
+<body>
+    <main>
+
+        <h2><%= header %></h2>
+        <form action="<%= action %>" method="POST">
+
+            <div>
+                <label for="id">Product ID:</label>
+                <input type="text" id="id" name="id">
+            </div>
+
+            <button type="submit">Submit</button>
+        </form>
+        <a href="/"><button>HOME</button></a>
+
+    </main>
+</body>
+</html>
